@@ -6,16 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mall-tiny-03" />
-        <module name="mall-tiny-4" />
-        <module name="mall-tiny-04" />
         <module name="mall-tiny-05" />
         <module name="mall-tiny-06" />
         <module name="mall-tiny-07" />
         <module name="mall-tiny-08" />
+        <module name="mall-tiny-03" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mall-tiny-04" target="1.8" />
       <module name="mall-tiny-4" target="1.8" />
     </bytecodeTargetLevel>
   </component>
